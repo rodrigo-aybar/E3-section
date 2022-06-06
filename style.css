@@ -1,0 +1,71 @@
+body{
+    background: rgb(219,219,219);
+    background: radial-gradient(circle, rgba(219,219,219,1) 0%, rgba(219,219,219,1) 100%);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.logo {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    padding: 3px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.span{
+    text-transform: uppercase;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(219,219,219);
+    background: radial-gradient(circle, rgba(219,219,219,1) 0%, rgba(189,189,189,1) 44%);
+    padding: 20px;
+}
+.section-img{
+    width: 25%;
+}
+.section-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.section-info h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: #4d47c3;
+}
+.section-info h3{
+    font-size: 20px;
+    font-weight: 900;
+    color:#4d47c3;
+}
+.button{
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(55, 55, 55);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 p{
+    padding-top: 15px;
+    color: #4d47c3;
+}
