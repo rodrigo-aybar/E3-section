@@ -180,3 +180,8 @@ h3{
         margin-top: 20px;
     }
 }
+@media (max-width: 768px) {
+    .section-art_div{
+        width: 30%;
+    }
+}
