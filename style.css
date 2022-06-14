@@ -163,6 +163,11 @@ h3{
     padding: 10px;
     box-shadow: 5px 5px 10px 2px;
 }
+@media (max-width: 768px) {
+    .section-art_div{
+        width: 30%;
+    }
+}
 @media (max-width: 425px) {
     .section{
         text-align: center;
@@ -180,8 +185,43 @@ h3{
         margin-top: 20px;
     }
 }
-@media (max-width: 768px) {
-    .section-art_div{
-        width: 30%;
+
+.servicio{
+    text-align: center;
+    background-color: var(--fondo);
+}
+.servicio h2{
+    margin: 0;
+    padding-top: 24.9px;
+}
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--fondo);
+    padding-bottom: 50px;
+}
+.servicios-art{
+    width: 20%;
+    text-align: center;
+}
+.servicios-art h3{
+    color: var(--titulo);
+    padding: 15px 0;
+    margin: 0;
+}
+.servicios-art p{
+    margin: 0;
+}
+@media (max-width: 425px) {
+    .servicio p{
+        margin-bottom: 0;
+    }
+    .servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+    .servicios-art{
+        width: 70%;
+        margin-top: 50px;
     }
 }
